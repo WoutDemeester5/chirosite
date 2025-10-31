@@ -5,8 +5,7 @@
       "items": [
           { "naam": "Cola / Cola Zero", "prijs": 2.00},
           { "naam": "Fanta", "prijs": 2.00},
-          {"naam":"Sprite", "prijs":2.00},
-          {"naam":"Ice Tea", "prijs":2.00},
+          { "naam": "ice tea", "prijs": 2.00},
           {"naam":"Fruitsap looza", "prijs":2.00},
           {"naam":"Water Plat / Spuit", "prijs":2.00}
       ]
@@ -14,6 +13,7 @@
     {
       "categorie": "Wijn",
       "items": [
+          { "naam": "cava", "prijs": 3.00},
           {"naam":"Wijn Wit/Rood/Rosé", "prijs":3.00},
           {"naam":"Fles wijn Wit/Rood/Rosé", "prijs":15.00}
       ]
@@ -22,15 +22,14 @@
       "categorie": "Halloweensnacks",
       "items": [
         {"naam":"Chips Zout / Paprika", "prijs":1.50},
-        {"naam":"Portie Partysnacks", "prijs":3.50},
+        {"naam":"Portie Partysnacks", "prijs":6.00},
         {"naam":"Bugels met heksenkaas", "prijs":3.00},
-        {"naam":"Portie gemengd", "prijs": 6.00}
+        {"naam":"Portie gemengd", "prijs": 4.00}
       ]
     },
     {
       "categorie": "Alcoholvrij",
       "items": [
-        { "naam": "Stella 0.0%", "prijs": 2.50 },
         { "naam": "Carlsberg 0.0%", "prijs": 2.50 },
         { "naam": "Sportzot 0.4%", "prijs": 2.50 },
         {"naam":"Mocktail 0.0%", "prijs":4.00},
@@ -40,20 +39,20 @@
     {
       "categorie": "Cocktail Bar (18+)",
       "items": [
-        {"naam":"Chirococktail", "prijs":5.00},
-        {"naam":"Cheeroween", "prijs":4.00},
+        {"naam":"cocktail maison", "prijs":5.00},
+        {"naam":"Cheeroween", "prijs":5.00},
+        { "naam": "moijto", "prijs": 5.00},
+        { "naam": "Rocketshot", "prijs": 1.50},
         {"naam":"Devilshot", "prijs":1.50}
       ]
     },
     {
       "categorie": "Vampiers (3% - 5.2%)",
       "items": [
-          {"naam": "Stella", "prijs": 2.50},
-          {"naam": "Jupiler", "prijs": 2.50},
+          {"naam": "Stella", "prijs": 2.00},
           {"naam": "Rodenbach", "prijs": 2.50},
           {"naam": "Kriek", "prijs": 2.50},
           {"naam": "Hoegaarden", "prijs": 2.50},
-          {"naam": "Palm", "prijs": 2.50},
           {"naam": "Hoegaarden Rosé", "prijs": 2.50},
           {"naam": "Vedett", "prijs": 2.50},
           {"naam": "St hubertus", "prijs": 3.50}
@@ -65,7 +64,6 @@
           {"naam": "Carlsberg", "prijs": 3.00},
           {"naam": "Brugse Zot", "prijs": 3.00},
           {"naam": "Paljas", "prijs": 3.00},
-          {"naam": "Orval", "prijs": 3.50},
           {"naam": "Rodenbach Grand Cru", "prijs": 3.50},
           {"naam": "Rodenbach Alexander (bruin)", "prijs": 3.50}
       ]
@@ -73,40 +71,46 @@
     {
       "categorie": "Spoken (6.5% - 7%)",
       "items": [
-          {"naam": "Leffe Blond / Bruin", "prijs": 3.00},
+          {"naam": "Leffe Blond", "prijs": 3.00},
           {"naam": "Kwaremont (Blond)", "prijs": 3.00},
           {"naam": "Grimbergen Blond", "prijs": 3.00},
-          {"naam": "Gentse strop", "prijs": 3.00}
+          {"naam": "Gentse strop", "prijs": 3.00},
+          { "naam": "kasteel tropical", "prijs": 3.00}
       ]
     },
     {
       "categorie": "Geest(ig) (7.5% - 8.5%)",
       "items": [
           {"naam": "Cornet (blond)", "prijs": 3.50},
-          {"naam": "Hommlebier", "prijs": 3.50},
           {"naam": "St. Bernardus Trippel", "prijs": 3.50},
-          {"naam": "Chimay Wit", "prijs": 3.50},
           {"naam": "La Chouffe", "prijs": 3.50},
           {"naam": "Filou", "prijs": 3.50},
-          {"naam": "Slurfke", "prijs": 3.50},
           {"naam": "Tripel Karmeliet", "prijs": 3.50},
           {"naam": "Omer", "prijs": 3.50},
           {"naam": "Kasteelbier Rouge", "prijs": 3.50},
-          {"naam": "Duvel", "prijs": 4.00}
+          {"naam": "Duvel", "prijs": 4.00},
+          { "naam": "Poes", "prijs": 3.50}
       ]
     },
     {
       "categorie": "Duivels (9% - 11%)",
       "items": [
-          {"naam": "Chimay Blauw (bruin)", "prijs": 4.00},
-          {"naam": "Rochefort", "prijs": 4.00},
           {"naam": "Duvel Tripel Hop", "prijs": 4.00},
-          {"naam": "Kasteelbier Bruin", "prijs": 4.00},
-          {"naam": "Leffe 9° (blond)", "prijs": 4.00},
           {"naam": "Straffe Hendrik", "prijs": 4.00},
-          {"naam": "Westmalle (blond)", "prijs": 4.00}
+          {"naam": "Westmalle (blond)", "prijs": 4.00},
+          { "naam": "Westvleteren", "prijs": 6.00}
+      ]
+    },
+    {
+      "categorie": "Fermentum Divinum (trappisten)",
+      "items": [
+          {"naam": "Orval", "prijs": 4.00},
+          {"naam": "Chimay Blauw (bruin)", "prijs": 4.00},
+          {"naam": "Chimay Wit", "prijs": 4.00},
+          { "naam": "Rochefort 9,2%", "prijs": 6.00}
       ]
     }
   ]
 }
+
 
