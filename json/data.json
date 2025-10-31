@@ -24,7 +24,7 @@
         {"naam":"Chips Zout / Paprika", "prijs":1.50},
         {"naam":"Portie Partysnacks", "prijs":3.50},
         {"naam":"Bugels met heksenkaas", "prijs":3.00},
-        {"naam":"Portie gemengd", "prijs": 8.00}
+        {"naam":"Portie gemengd", "prijs": 6.00}
       ]
     },
     {
@@ -109,3 +109,4 @@
     }
   ]
 }
+
