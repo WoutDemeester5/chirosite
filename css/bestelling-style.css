@@ -1,0 +1,182 @@
+/* Algemene opmaak */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Hoofdtitel */
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Wrapper rond aantalveld en knoppen */
+.aantal-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Plus- en minknoppen */
+.aantal-wrapper button {
+  background-color: #7c7655;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.aantal-wrapper button:hover {
+  background-color: #051e3a;
+  transform: scale(1.05);
+}
+
+.aantal-wrapper input[type="number"] {
+  width: 25px; /* was 55px */
+  padding: 5px;
+  text-align: center;
+}
+
+#totaal-container {
+  position: sticky;
+  top: 25px;
+  margin-bottom: 10px;
+  padding: 4px 5px;
+  background-color: #7c7655;
+  color: white;
+  border-radius: 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  max-width: 260px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+}
+
+#totaal-container span {
+  color: #ffffff;
+}
+
+/* Categorie-titels */
+h2 {
+  color: rgb(110, 96, 64);
+  font-style: italic;
+  padding: 10px 15px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  background-color: #e9ecef;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+}
+
+/* Container waarin de tabellen staan */
+#dranken-container {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#reset-button {
+  margin-top: 10px;
+  font-size: 17px;
+  background-color: #333;
+  color: #ffffff;
+  font-weight: bold;
+  border: 2px solid #333;
+  border-radius: 8px;
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#reset-button:hover {
+  background-color: #881414;
+  color: white;
+}
+
+
+/* Tabellen */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0 30px 0;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Tabelcellen */
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #051e3a;
+  color: white;
+}
+
+td:last-child {
+  text-align: right;
+  font-weight: bold;
+}
+
+/* Inputveld voor aantallen */
+input[type="number"] {
+  width: 70px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  text-align: center;
+  transition: border-color 0.2s;
+}
+
+input[type="number"]:focus {
+  border-color: #06121f;
+  outline: none;
+}
+
+
+/* Responsief ontwerp voor kleine schermen */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  #dranken-container {
+    max-width: 100%;
+  }
+
+  h2 {
+    font-size: 1.1em;
+    padding: 8px;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+
+  th, td {
+    padding: 6px;
+  }
+
+  input[type="number"] {
+    width: 55px;
+  }
+}
