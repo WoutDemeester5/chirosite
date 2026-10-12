@@ -1,0 +1,92 @@
+{
+  "dranken": [
+    {
+      "categorie": "Frisdrank",
+      "items": [
+        { "naam": "Cola", "prijs": 2.0 },
+        { "naam": "Cola Zero", "prijs": 2.0 },
+        { "naam": "Fanta", "prijs": 2.0 },
+        { "naam": "Ice Tea", "prijs": 2.5 },
+        { "naam": "Water Plat", "prijs": 1.5 },
+        { "naam": "Water Spuit", "prijs": 1.5 }
+      ]
+    },
+    {
+      "categorie": "Alcoholvrij",
+      "items": [
+        { "naam": "Carlsberg 0.0%", "prijs": 2.5 },
+        { "naam": "Sportzot 0.4%", "prijs": 2.5 },
+        { "naam": "Hoegaarden Rosé 0.4%", "prijs": 2.5 },
+        { "naam": "Tante Nonneke 0.5%", "prijs": 4.0 }
+      ]
+    },
+    {
+      "categorie": "Wijn",
+      "items": [
+        { "naam": "Wijn Wit", "prijs": 3.0 },
+        { "naam": "Wijn Rood", "prijs": 3.0 },
+        { "naam": "Wijn Rosé", "prijs": 3.0 },
+        { "naam": "Fles wijn Wit", "prijs": 15.0 },
+        { "naam": "Fles wijn Rood", "prijs": 15.0 },
+        { "naam": "Fles wijn Rosé", "prijs": 15.0 }
+      ]
+    },
+    {
+      "categorie": "Aperitief",
+      "items": [
+        { "naam": "Cocktail Maison", "prijs": 5.0 },
+        { "naam": "Cava", "prijs": 3.0 },
+        { "naam": "Fles cava", "prijs": 15.0 }
+      ]
+    },
+    {
+      "categorie": "Versnapering",
+      "items": [
+        { "naam": "Chips Zout", "prijs": 1.5 },
+        { "naam": "Chips Paprika", "prijs": 1.5 }
+      ]
+    },
+    {
+      "categorie": "Dessert",
+      "items": [
+        { "naam": "Koffie", "prijs": 2.0 },
+        { "naam": "Taart", "prijs": 1.5 }
+      ]
+    },
+    {
+      "categorie": "Bieren",
+      "items": [
+        { "naam": "Stella", "prijs": 2.0 },
+        { "naam": "Rodenbach", "prijs": 2.5 },
+        { "naam": "Kriek", "prijs": 2.5 },
+        { "naam": "Hoegaarden", "prijs": 2.5 },
+        { "naam": "Vedett", "prijs": 2.5 },
+        { "naam": "Carlsberg", "prijs": 2.5 },
+        { "naam": "Brugse Zot", "prijs": 3.0 },
+        { "naam": "Paljas", "prijs": 3.0 },
+        { "naam": "Orval", "prijs": 4.0 },
+        { "naam": "Rodenbach Grand Cru", "prijs": 3.5 },
+        { "naam": "Rodenbach Alexander (bruin)", "prijs": 3.5 },
+        { "naam": "Leffe Blond / Bruin", "prijs": 3.0 },
+        { "naam": "Kwaremont", "prijs": 3.0 },
+        { "naam": "Grimbergen Blond", "prijs": 3.0 },
+        { "naam": "Brugse Zot", "prijs": 3.5 },
+        { "naam": "Gentse strop", "prijs": 3.5 },
+        { "naam": "St hubertus", "prijs": 4.0 },
+        { "naam": "St. Bernardus Trippel", "prijs": 3.5 },
+        { "naam": "Chimay Wit", "prijs": 3.5 },
+        { "naam": "La Chouffe", "prijs": 3.5 },
+        { "naam": "Omer", "prijs": 3.5 },
+        { "naam": "Cornet", "prijs": 3.5 },
+        { "naam": "Duvel", "prijs": 3.5 },
+        { "naam": "Filou", "prijs": 3.5 },
+        { "naam": "Tripel Karmeliet", "prijs": 4.0 },
+        { "naam": "De Poes Blond", "prijs": 4.0 },
+        { "naam": "Chimay Blauw (bruin)", "prijs": 4.0 },
+        { "naam": "Trappistes Rochefort 8", "prijs": 4.0 },
+        { "naam": "Straffe Hendrik", "prijs": 4.0 },
+        { "naam": "Westmalle tripel", "prijs": 4.0 }
+      ]
+    }
+  ]
+}
